@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+:root{
+  --center:center;
+  --width:100%;
+ }
+
+body{
+  width: var(--width);
+  height: 100vh;
+  background-image: url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: scroll; */
+  overflow: hidden;
+ }
+
+
+ .container{
+  top: 0;
+  left: 0;
+  width: var(--width);
+  height: var(--width);
+  background: rgba(11, 11, 74, 0.6);
+}
+
+.list{
+  list-style-type: none;
+  color: rgb(183, 150, 22);
+}
+
+li{
+  display: inline-block;
+  margin: 20px;
+}
+.list li:hover{
+  color: aliceblue;
+}
+
+.navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: var(--center);
+ padding-left: 6.5%;
+ padding-right: 6.5%;
+ padding-top: 1%;
+}
+
+.hero{
+  position: relative;
+  top: 3rem;
+  text-align: center;
+}
+
+.hero-heading{
+  font-size: 5.6rem;
+  color: rgb(201, 173, 46);
+  font-weight: bold;
+  width: var(--width);
+}
+
+.button-large{
+  padding: 10px 28px;
+  margin: 4px 5px;
+  background: red;
+  font-size: 1rem;
+}
+.button-small{
+  padding: 5px 13px;
+  margin: 2px;
+  background:red;
+
+}
+
+.bottom{
+  position: relative;
+  left: 18.9rem;
+  bottom:5rem;
+}
