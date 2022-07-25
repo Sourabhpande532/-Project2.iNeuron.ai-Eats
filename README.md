@@ -20,4 +20,4 @@ https://iNeuronEats.netlify.app/
 properly especially Navbar & buttons
 
 
-## This project took around 1 hours to complete.
+## Last but not least it tooks around 1 hours to complete.
