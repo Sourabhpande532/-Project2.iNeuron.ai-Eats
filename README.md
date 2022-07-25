@@ -1,5 +1,3 @@
-# -Project2.iNeuron.ai-Eats
-Project given by Hitesh sir 
 
 # Project 2 - HTML and CSS 
 
