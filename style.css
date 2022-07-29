@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&family=Oswald:wght@700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@
 :root{
   --center:center;
   --width:100%;
+ 
  }
 
 body{
@@ -16,7 +18,6 @@ body{
   background-image: url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: scroll; */
   overflow: hidden;
  }
 
@@ -26,7 +27,7 @@ body{
   left: 0;
   width: var(--width);
   height: var(--width);
-  background: rgba(11, 11, 74, 0.6);
+  background: rgba(8, 8, 67, 0.6);
 }
 
 .list{
@@ -37,6 +38,7 @@ body{
 li{
   display: inline-block;
   margin: 20px;
+  font-size: 1.1rem;
 }
 .list li:hover{
   color: aliceblue;
@@ -58,27 +60,35 @@ li{
 }
 
 .hero-heading{
-  font-size: 5.6rem;
-  color: rgb(201, 173, 46);
+  font-size: 7rem;
+  color: rgb(193, 160, 14);
   font-weight: bold;
   width: var(--width);
+  font-family: 'Fira Sans', sans-serif;
+  text-shadow: 0px 4px 4px orange;
+  letter-spacing: 6px;
+
 }
 
 .button-large{
   padding: 10px 28px;
   margin: 4px 5px;
   background: red;
-  font-size: 1rem;
+  font-size: 1.7rem;
+  color: #fff;
 }
 .button-small{
   padding: 5px 13px;
   margin: 2px;
-  background:red;
+  background: red;
+  color: #fff;
+  font-size: 1rem;
 
 }
 
 .bottom{
   position: relative;
-  left: 18.9rem;
+  left: 40%;
   bottom:5rem;
+
 }

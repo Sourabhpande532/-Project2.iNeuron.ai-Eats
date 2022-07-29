@@ -1,12 +1,12 @@
 
 # Project 2 - HTML and CSS 
 
-By Saurabh
+By **Saurabh**
 
 ![Project 2](https://img.shields.io/badge/Project-2-brightgreen)
 
-[Link to the Project 2]("https://delisious-food-ineuron-90c064.netlify.app/")
-https://delisious-food-ineuron-90c064.netlify.app/
+[GO LIVE](https://delisious-food-ineuron-90c064.netlify.app/)
+
 
 ![Completed Website](./assets/thumbnail.png)
 
