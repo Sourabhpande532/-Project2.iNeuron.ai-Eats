@@ -14,20 +14,17 @@
 
 body{
   width: var(--width);
-  height: 100vh;
   background-image: url('./assets/pexels-maxyne-barcel-10402282\ 1.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
  }
 
 
  .container{
-  top: 0;
-  left: 0;
-  width: var(--width);
-  height: var(--width);
   background: rgba(8, 8, 67, 0.6);
+  height: 100%;
 }
 
 .list{
@@ -67,7 +64,6 @@ li{
   font-family: 'Fira Sans', sans-serif;
   text-shadow: 0px 4px 4px orange;
   letter-spacing: 6px;
-
 }
 
 .button-large{
@@ -83,7 +79,6 @@ li{
   background: red;
   color: #fff;
   font-size: 1rem;
-
 }
 
 .bottom{
